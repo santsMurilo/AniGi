@@ -1,4 +1,4 @@
-// Efeito de digitação
+
 const textos = document.querySelectorAll(".texto");
 
 textos.forEach((p, index) => {

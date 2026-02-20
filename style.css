@@ -3,18 +3,17 @@ body {
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
-    padding: 0 16px; /* espaço lateral no celular */
+    padding: 0 16px;
 }
 
-/* Título adaptável */
+
 h1 {
     text-align: center;
     margin-top: 40px;
     color: #ff69b4;
-    font-size: clamp(24px, 6vw, 40px); /* responsivo automático */
+    font-size: clamp(24px, 6vw, 40px);
 }
 
-/* Texto adaptável */
 p {
     max-width: 600px;
     margin: 20px auto;
@@ -24,12 +23,12 @@ p {
     text-align: center;
 }
 
-/* Botão adaptável */
+
 button {
     display: block;
     margin: 30px auto;
     padding: 14px 20px;
-    width: min(90%, 300px); /* ocupa bem no celular */
+    width: min(90%, 300px);
     border: none;
     border-radius: 12px;
     background-color: #ff69b4;
